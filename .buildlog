@@ -23,3 +23,23 @@ build.dart --machine --changed=README.md
 
 build.dart finished [1607 ms]
 
+---
+build.dart --machine --changed=Garden model.png --changed=model.json
+
+build.dart finished [2112 ms]
+
+---
+build.dart --machine --changed=doc\git\github.txt --changed=doc\pubspec.txt
+
+build.dart finished [1688 ms]
+
+---
+build.dart --machine --changed=GardenMockup.bmml --changed=PlantMockup.bmml
+
+build.dart finished [2289 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1603 ms]
+
