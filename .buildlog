@@ -1,0 +1,25 @@
+---
+build.dart --machine --changed=pubspec.yaml --changed=web\clickcounter.dart --changed=web\clickcounter.html --c...
+
+build.dart finished [1662 ms]
+
+---
+build.dart --machine --changed=doc\git\github.txt --changed=doc\pubspec.txt --changed=lib\repository.dart --cha...
+
+build.dart finished [1733 ms]
+
+---
+build.dart --machine --changed=doc\git\github.txt --changed=doc\pubspec.txt --changed=model.json
+
+build.dart finished [2031 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1747 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1607 ms]
+
