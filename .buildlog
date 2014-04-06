@@ -43,3 +43,691 @@ build.dart --machine --changed=README.md
 
 build.dart finished [1603 ms]
 
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [2126 ms]
+
+---
+build.dart --machine --changed=web\gardenList.html
+
+build.dart finished [1759 ms]
+
+---
+build.dart --machine --changed=web\gardenEdit.html
+
+build.dart finished [1662 ms]
+
+---
+build.dart --machine --changed=web\gardenList.css
+
+build.dart finished [2605 ms]
+
+---
+build.dart --machine --changed=web\gardenList.dart
+
+build.dart finished [21135 ms]
+
+---
+build.dart --machine --changed=web\project.html
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [1708 ms]
+
+---
+build.dart --machine --changed=web\gardenList.html
+[{"method":"error","params":{"file":"web/gardenList.html","message":"Invalid name \"gardenList\". Custom element names must have at least one dash and can't be any of the following names: annotation-xml, color-profile, font-face, font-face-src, font-face-uri, font-face-format, font-face-name, missing-glyph.","line":1,"charStart":0,"charEnd":35}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/gardenList.html threw error: Invalid name "gardenList". Custom element names must have at least one dash and can't be any of the following names: annotation-xml, color-profile, font-face, font-face-src, font-face-uri, font-face-format, font-face-name, missing-glyph.}
+build.dart finished [1961 ms]
+
+---
+build.dart --machine --changed=web\gardenList.html
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [1653 ms]
+
+---
+build.dart --machine --changed=web\project.html
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/garden-list.html\" in package \"project\".","line":12,"charStart":266,"charEnd":309}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/garden-edit.html\" in package \"project\".","line":13,"charStart":314,"charEnd":357}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1129,"charEnd":1154}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/garden-list.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/garden-edit.html" in package "project".}
+build.dart finished [1614 ms]
+
+---
+build.dart --machine --changed=web\project.html
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [2440 ms]
+
+---
+build.dart --machine --changed=web\gardenEdit.html
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [1767 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [5045 ms]
+
+---
+build.dart --machine --changed=web\gardenVisit.html
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [1682 ms]
+
+---
+build.dart --machine --changed=web\garden_visit.dart
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [1620 ms]
+
+---
+build.dart --machine --changed=web\garden_visit.html --removed=web\gardenVisit.html
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [1626 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart --removed=web\gardenList.dart
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build.dart finished [1643 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html --removed=web\gardenList.html
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/gardenEdit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project".}
+build.dart finished [1826 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html --removed=web\gardenEdit.html
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1666 ms]
+
+---
+build.dart --machine --changed=web\garden_list.css --removed=web\gardenList.css
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1751 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1696 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.css
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1616 ms]
+
+---
+build.dart --machine --removed=web\garden_edit.css
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1663 ms]
+
+---
+build.dart --machine --removed=web\garden_list.css
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":312,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1671 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (garden-edit). Ignored.","line":9,"charStart":313,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Expected closing tag. Unexpected end of file.","line":1,"charStart":0,"charEnd":36}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1648 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1729 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1655 ms]
+
+---
+build.dart --machine --changed=web\garden_visit.html
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1687 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1672 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenList.html\" in package \"project\".","line":12,"charStart":266,"charEnd":308}}]
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"web/gardenEdit.html\" in package \"project\".","line":13,"charStart":313,"charEnd":355}}]
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":59,"charStart":1127,"charEnd":1152}}]
+build failed with errors: {Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenList.html" in package "project"., Transform polymer (Linter) on project|web/project.html threw error: couldn't find imported asset "web/gardenEdit.html" in package "project".}
+build.dart finished [1783 ms]
+
+---
+build.dart --machine --changed=web\project.html
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":60,"charStart":1178,"charEnd":1203}}]
+build.dart finished [1654 ms]
+
+---
+build.dart --machine --changed=web\project.html
+[{"method":"warning","params":{"file":"web/project.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":60,"charStart":1178,"charEnd":1203}}]
+build.dart finished [11896 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [2111 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1881 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [1656 ms]
+
+---
+build.dart --machine --changed=web\garden_visit.html
+
+build.dart finished [1649 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [2020 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [1912 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1651 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1989 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+
+build.dart finished [2274 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1678 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1727 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+
+build.dart finished [1674 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [2266 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1685 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1680 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [2004 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1727 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1802 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [2026 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1705 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart --changed=web\garden_edit.html
+
+build.dart finished [2040 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1883 ms]
+
+---
+build.dart --machine --changed=web\garden_visit.html
+
+build.dart finished [4069 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+
+build.dart finished [1847 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+
+build.dart finished [1800 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1844 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1708 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1631 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+
+build.dart finished [1714 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html --changed=web\project.html
+
+build.dart finished [1788 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected form in table context.","line":7,"charStart":116,"charEnd":122}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":9,"charStart":233,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":9,"charStart":252,"charEnd":260}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":9,"charStart":260,"charEnd":308}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":9,"charStart":323,"charEnd":334}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (br) in table context caused voodoo mode.","line":9,"charStart":334,"charEnd":338}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":10,"charStart":347,"charEnd":354}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":10,"charStart":366,"charEnd":374}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (input) in table context caused voodoo mode.","line":10,"charStart":374,"charEnd":434}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (br) in table context caused voodoo mode.","line":10,"charStart":434,"charEnd":438}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":11,"charStart":447,"charEnd":481}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":11,"charStart":485,"charEnd":494}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":11,"charStart":494,"charEnd":530}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":11,"charStart":536,"charEnd":545}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":12,"charStart":552,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (form). Ignored.","line":12,"charStart":552,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected form in table context.","line":7,"charStart":116,"charEnd":122}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":9,"charStart":233,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":9,"charStart":252,"charEnd":260}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":9,"charStart":260,"charEnd":308}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":9,"charStart":323,"charEnd":334}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (br) in table context caused voodoo mode.","line":9,"charStart":334,"charEnd":338}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":10,"charStart":347,"charEnd":354}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":10,"charStart":366,"charEnd":374}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (input) in table context caused voodoo mode.","line":10,"charStart":374,"charEnd":434}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (br) in table context caused voodoo mode.","line":10,"charStart":434,"charEnd":438}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":11,"charStart":447,"charEnd":481}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":11,"charStart":485,"charEnd":494}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":11,"charStart":494,"charEnd":530}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":11,"charStart":536,"charEnd":545}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (form) in table context caused voodoo mode.","line":12,"charStart":552,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (form). Ignored.","line":12,"charStart":552,"charEnd":559}}]
+build.dart finished [1867 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":9,"charStart":233,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":9,"charStart":252,"charEnd":260}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":9,"charStart":260,"charEnd":308}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":9,"charStart":323,"charEnd":334}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (br) in table context caused voodoo mode.","line":9,"charStart":334,"charEnd":338}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":10,"charStart":347,"charEnd":354}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":10,"charStart":366,"charEnd":374}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (input) in table context caused voodoo mode.","line":10,"charStart":374,"charEnd":434}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (br) in table context caused voodoo mode.","line":10,"charStart":434,"charEnd":438}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":11,"charStart":447,"charEnd":481}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":11,"charStart":485,"charEnd":494}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":11,"charStart":494,"charEnd":530}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":11,"charStart":536,"charEnd":545}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":9,"charStart":233,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":9,"charStart":252,"charEnd":260}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (textarea) in table context caused voodoo mode.","line":9,"charStart":260,"charEnd":308}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (textarea) in table context caused voodoo mode.","line":9,"charStart":323,"charEnd":334}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (br) in table context caused voodoo mode.","line":9,"charStart":334,"charEnd":338}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (label) in table context caused voodoo mode.","line":10,"charStart":347,"charEnd":354}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (label) in table context caused voodoo mode.","line":10,"charStart":366,"charEnd":374}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (input) in table context caused voodoo mode.","line":10,"charStart":374,"charEnd":434}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (br) in table context caused voodoo mode.","line":10,"charStart":434,"charEnd":438}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":11,"charStart":447,"charEnd":481}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":11,"charStart":485,"charEnd":494}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (button) in table context caused voodoo mode.","line":11,"charStart":494,"charEnd":530}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (button) in table context caused voodoo mode.","line":11,"charStart":536,"charEnd":545}}]
+build.dart finished [1718 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected character after / in tag. Expected >","line":11,"charStart":608,"charEnd":614}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"End tag contains unexpected attributes.","line":11,"charStart":608,"charEnd":616}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (t<). Ignored.","line":11,"charStart":608,"charEnd":616}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected character after / in tag. Expected >","line":11,"charStart":608,"charEnd":614}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"End tag contains unexpected attributes.","line":11,"charStart":608,"charEnd":616}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (t<). Ignored.","line":11,"charStart":608,"charEnd":616}}]
+build.dart finished [5102 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (td) in the table body phase. Ignored.","line":11,"charStart":613,"charEnd":618}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (td) in the table body phase. Ignored.","line":11,"charStart":613,"charEnd":618}}]
+build.dart finished [1676 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1645 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart --changed=web\garden_edit.html
+
+build.dart finished [1852 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1854 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html --changed=web\project.html
+
+build.dart finished [1858 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1712 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1809 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html --changed=web\project.css
+
+build.dart finished [1810 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html --changed=web\garden_visit.html
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (p) in table context caused voodoo mode.","line":7,"charStart":151,"charEnd":164}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (p) in table context caused voodoo mode.","line":7,"charStart":175,"charEnd":179}}]
+[{"method":"warning","params":{"file":"web/garden_visit.html","message":"Unexpected start tag (p) in table context caused voodoo mode.","line":7,"charStart":154,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/garden_visit.html","message":"Unexpected end tag (p) in table context caused voodoo mode.","line":7,"charStart":179,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (p) in table context caused voodoo mode.","line":7,"charStart":151,"charEnd":164}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (p) in table context caused voodoo mode.","line":7,"charStart":175,"charEnd":179}}]
+[{"method":"warning","params":{"file":"web/garden_visit.html","message":"Unexpected start tag (p) in table context caused voodoo mode.","line":7,"charStart":154,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/garden_visit.html","message":"Unexpected end tag (p) in table context caused voodoo mode.","line":7,"charStart":179,"charEnd":183}}]
+build.dart finished [2299 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"warning","params":{"file":"web/garden_visit.html","message":"Unexpected start tag (p) in table context caused voodoo mode.","line":7,"charStart":154,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/garden_visit.html","message":"Unexpected end tag (p) in table context caused voodoo mode.","line":7,"charStart":179,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/garden_visit.html","message":"Unexpected start tag (p) in table context caused voodoo mode.","line":7,"charStart":154,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/garden_visit.html","message":"Unexpected end tag (p) in table context caused voodoo mode.","line":7,"charStart":179,"charEnd":183}}]
+build.dart finished [1671 ms]
+
+---
+build.dart --machine --changed=web\garden_visit.html
+
+build.dart finished [1651 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1821 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1849 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1797 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1821 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1799 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1834 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1671 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1797 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1867 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1790 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1788 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html --changed=web\project.css
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (theader) in table context caused voodoo mode.","line":6,"charStart":136,"charEnd":170}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (theader) in table context caused voodoo mode.","line":10,"charStart":218,"charEnd":228}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (theader). Ignored.","line":10,"charStart":218,"charEnd":228}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected form in table context.","line":11,"charStart":233,"charEnd":239}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (table) implies end tag (table).","line":12,"charStart":246,"charEnd":253}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (table) implies end tag (table).","line":12,"charStart":246,"charEnd":253}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (table) implies end tag (table).","line":12,"charStart":246,"charEnd":253}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (form). Ignored.","line":18,"charStart":769,"charEnd":776}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (td). Ignored.","line":19,"charStart":781,"charEnd":786}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (tr). Ignored.","line":19,"charStart":786,"charEnd":791}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (table). Ignored.","line":20,"charStart":794,"charEnd":802}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (theader) in table context caused voodoo mode.","line":6,"charStart":136,"charEnd":170}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (theader) in table context caused voodoo mode.","line":10,"charStart":218,"charEnd":228}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (theader). Ignored.","line":10,"charStart":218,"charEnd":228}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected form in table context.","line":11,"charStart":233,"charEnd":239}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (table) implies end tag (table).","line":12,"charStart":246,"charEnd":253}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (table) implies end tag (table).","line":12,"charStart":246,"charEnd":253}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (table) implies end tag (table).","line":12,"charStart":246,"charEnd":253}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (form). Ignored.","line":18,"charStart":769,"charEnd":776}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (td). Ignored.","line":19,"charStart":781,"charEnd":786}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (tr). Ignored.","line":19,"charStart":786,"charEnd":791}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (table). Ignored.","line":20,"charStart":794,"charEnd":802}}]
+build.dart finished [1875 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (theader) in table context caused voodoo mode.","line":6,"charStart":136,"charEnd":170}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (theader) in table context caused voodoo mode.","line":10,"charStart":223,"charEnd":233}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (theader). Ignored.","line":10,"charStart":223,"charEnd":233}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected start tag (theader) in table context caused voodoo mode.","line":6,"charStart":136,"charEnd":170}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (theader) in table context caused voodoo mode.","line":10,"charStart":223,"charEnd":233}}]
+[{"method":"warning","params":{"file":"web/garden_edit.html","message":"Unexpected end tag (theader). Ignored.","line":10,"charStart":223,"charEnd":233}}]
+build.dart finished [1673 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1783 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1808 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1828 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1830 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1799 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [3700 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html --changed=web\garden_visit.html
+
+build.dart finished [1834 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1791 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1799 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1796 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.html
+
+build.dart finished [1741 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1701 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [1657 ms]
+

@@ -1,25 +1,60 @@
 <!DOCTYPE html>
+ <!--Todo
 
+Minimum pour le cours (tout en local)
+
+data model (3 entités, 2 relations...keep it simple !)
+data entry (composants polymer)
+data validation
+internal storage indexedDB
+data display, add, remove, edit
+
+Un petit peu plus de fonctionnalité
+
+filters (angular + polymer/angular binding)
+photocamera
+geolocation
+
+D'autres trucs que je veux apprendre (sauvegarde sur le serveur)
+
+client-serveur
+mongoDB
+
+offline functionnality
+internationnalisation
+  
+Plus de UI
+
+Draggable
+Menus
+Map
+
+
+  -->
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample app</title>
+
+    <title>Garden app</title>
     <link rel="stylesheet" href="project.css">
     
-    <!-- import the click-counter -->
-    <link rel="import" href="clickcounter.html">
+    <!-- importing polymer  elements-->
+    
+    <link rel="import" href="garden_list.html">
+    <link rel="import" href="garden_edit.html">
+    <link rel="import" href="garden_visit.html">
+    
     <script type="application/dart">export 'package:polymer/init.dart';</script>
     <script src="packages/browser/dart.js"></script>
+  
   </head>
+  
   <body>
-    <h1>Project</h1>
+    <h1>Garden app</h1>
     
-    <p>Hello world from Dart!</p>
-    
-    <div id="sample_container_id">
-      <click-counter count="5"></click-counter>
-    </div>
+      <garden-list></garden-list>
+      <garden-edit></garden-edit>
+      <garden-visit></garden-visit>
 
   </body>
 </html>

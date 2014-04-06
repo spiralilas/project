@@ -1,5 +1,5 @@
 body {
-  background-color: #F8F8F8;
+  background-color: WhiteSmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -7,8 +7,29 @@ body {
   margin: 15px;
 }
 
-h1, p {
-  color: #333;
+h1 {
+  color: DarkGreen;
+}
+
+h2 {
+  color: black;
+}
+
+.component_border {
+  border: 1px solid green;
+  width: 40%;
+  padding: 0px; 
+  margin: 10px;
+  border-radius: 8px;
+  background-color: White;
+}
+
+.component_header {
+  background-color: PaleGreen;
+}
+
+td{
+  margin: 10px;
 }
 
 #sample_container_id {
