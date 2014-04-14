@@ -731,3 +731,1136 @@ build.dart --machine --changed=web\project.css
 
 build.dart finished [1657 ms]
 
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2258 ms]
+
+---
+build.dart --machine --changed=doc\git\github.txt --changed=doc\pubspec.txt
+
+build.dart finished [2053 ms]
+
+---
+build.dart --machine --changed=doc\git\github.txt --changed=doc\pubspec.txt
+
+build.dart finished [2588 ms]
+
+---
+build.dart --machine --changed=doc\git\github.txt --changed=doc\pubspec.txt
+
+build.dart finished [1778 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [6512 ms]
+
+---
+build.dart --machine --changed=model.json
+
+build.dart finished [1916 ms]
+
+---
+build.dart --machine --changed=doc\git\github.txt --changed=doc\pubspec.txt
+
+build.dart finished [2118 ms]
+
+---
+build.dart --machine --changed=doc\git\github.txt --changed=doc\pubspec.txt
+
+build.dart finished [2152 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1921 ms]
+
+---
+build.dart --machine --changed=lib\repository.dart
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [2180 ms]
+
+---
+build.dart --machine --changed=README.md --changed=doc\git\github.txt --changed=doc\pubspec.txt --changed=lib\g...
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [2492 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [1774 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [1753 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [1721 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:\Users\dev\git\dart\project\packages\polymer\builder.dart'file:///C:/Users/dev/git/dart/project/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [494 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [2258 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [2363 ms]
+
+---
+build.dart --machine --changed=doc\analysis\Garden model.png --removed=Garden model.png
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [2006 ms]
+
+---
+build.dart --machine --changed=doc\analysis\GardenMockup.bmml --removed=GardenMockup.bmml
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [1972 ms]
+
+---
+build.dart --machine --changed=doc\analysis\PlantMockup.bmml --removed=PlantMockup.bmml
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":705,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/garden_domain/garden_model/garden_domain_garden_model_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":740,"charEnd":764}}]
+build.dart finished [1944 ms]
+
+---
+build.dart --machine --changed=web\garden_domain\garden_model\garden_domain_garden_model_web.html
+
+build.dart finished [1861 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [2640 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [2326 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [2041 ms]
+
+---
+build.dart --machine --changed=web\project.css
+
+build.dart finished [2224 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [96775 ms]
+
+---
+build.dart --machine --changed=web\project.dart
+
+build.dart finished [2011 ms]
+
+---
+build.dart --machine --changed=web\project.dart
+
+build.dart finished [1941 ms]
+
+---
+build.dart --machine --changed=web\project.html
+[{"method":"warning","params":{"file":"web/project.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":48,"charStart":922,"charEnd":954}}]
+build.dart finished [1940 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [1899 ms]
+
+---
+build.dart --machine --removed=web\project.dart
+
+build.dart finished [2065 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+
+build.dart finished [1900 ms]
+
+---
+build.dart --machine --changed=lib\app\todo_app.dart --changed=lib\app\todos.dart
+
+build.dart finished [2025 ms]
+
+---
+build.dart --machine --changed=lib\app\todos.dart
+
+build.dart finished [2005 ms]
+
+---
+build.dart --machine --changed=lib\app\gardens.dart --removed=lib\app\todos.dart
+
+build.dart finished [2080 ms]
+
+---
+build.dart --machine --changed=lib\app\garden_app.dart --removed=lib\app\todo_app.dart
+
+build.dart finished [1897 ms]
+
+---
+build.dart --machine --changed=lib\garden_domain_garden_model_app.dart
+
+build.dart finished [2772 ms]
+
+---
+build.dart --machine --changed=lib\app\gardens.dart
+
+build.dart finished [1903 ms]
+
+---
+build.dart --machine --changed=lib\app\garden_app.dart
+
+build.dart finished [1861 ms]
+
+---
+build.dart --machine --changed=lib\app\gardens.dart
+
+build.dart finished [1973 ms]
+
+---
+build.dart --machine --changed=lib\app\garden_app.dart
+
+build.dart finished [1924 ms]
+
+---
+build.dart --machine --changed=lib\app\gardens.dart
+
+build.dart finished [1945 ms]
+
+---
+build.dart --machine --changed=lib\app\gardens_view.dart --removed=lib\app\gardens.dart
+
+build.dart finished [1877 ms]
+
+---
+build.dart --machine --removed=lib\app\gardens_view.dart
+
+build.dart finished [2358 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1995 ms]
+
+---
+build.dart --machine --changed=lib\app\todos.dart
+
+build.dart finished [2053 ms]
+
+---
+build.dart --machine --changed=lib\app\gardens_view.dart --removed=lib\app\todos.dart
+
+build.dart finished [1837 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2076 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":17,"charStart":331,"charEnd":372}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":26,"charStart":651,"charEnd":662}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template). Ignored.","line":26,"charStart":651,"charEnd":662}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":17,"charStart":331,"charEnd":372}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":26,"charStart":651,"charEnd":662}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template). Ignored.","line":26,"charStart":651,"charEnd":662}}]
+build.dart finished [1951 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [1983 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [1968 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [1938 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [1998 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [1881 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [1915 ms]
+
+---
+build.dart --machine --changed=lib\app\garden_app.dart --changed=lib\app\gardens_view.dart --changed=web\garden...
+
+build.dart finished [2013 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2461 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [1929 ms]
+
+---
+build.dart --machine --changed=test\garden_domain\garden_model\garden_domain_garden_model_gen.dart
+
+build.dart finished [1992 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [1925 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [1960 ms]
+
+---
+build.dart --machine --changed=test\garden_domain\garden_model\garden_domain_garden_model_gen.dart
+
+build.dart finished [2822 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2019 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2018 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2202 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [1901 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [1920 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2371 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2121 ms]
+
+---
+build.dart --machine --changed=README.md --changed=doc\git\github.txt --changed=doc\pubspec.txt --changed=lib\g...
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2463 ms]
+
+---
+build.dart --machine --removed=lib\garden_domain\domain.dart --removed=lib\garden_domain\garden_model\gardens.d...
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2351 ms]
+
+---
+build.dart --machine --removed=lib\gen\garden_domain\garden_model\entries.dart --removed=lib\gen\garden_domain\...
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2571 ms]
+
+---
+build.dart --machine --removed=lib\garden_domain_garden_model.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [1945 ms]
+
+---
+build.dart --machine --removed=lib\garden_domain_garden_model_app.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2513 ms]
+
+---
+build.dart --machine --removed=web\garden_domain\garden_model\css\layout.css --removed=web\garden_domain\garden...
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [1923 ms]
+
+---
+build.dart --machine --removed=test\garden_domain\garden_model\garden_domain_garden_model_garden_test.dart --re...
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2005 ms]
+
+---
+build.dart --machine --removed=pubspec.lock
+unexpected error invoking 'pub':
+
+"Package \"myapp\" has no lockfile. Please run \"pub get\" first."
+build.dart finished [1423 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+unexpected error invoking 'pub':
+
+"Package \"myapp\" has no lockfile. Please run \"pub get\" first."
+build.dart finished [1252 ms]
+
+---
+build.dart --machine --changed=README.md --changed=doc\git\github.txt --changed=doc\pubspec.txt --changed=lib\g...
+unexpected error invoking 'pub':
+
+"Package \"myapp\" has no lockfile. Please run \"pub get\" first."
+build.dart finished [1387 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+unexpected error invoking 'pub':
+
+"Package \"myapp\" has no lockfile. Please run \"pub get\" first."
+build.dart finished [1233 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+unexpected error invoking 'pub':
+
+"Package \"myapp\" has no lockfile. Please run \"pub get\" first."
+build.dart finished [1232 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\dev\git\dart\project\packages\polymer\builder.dart'file:///C:/Users/dev/git/dart/project/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [406 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:\Users\dev\git\dart\project\packages\polymer\builder.dart'file:///C:/Users/dev/git/dart/project/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [385 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2314 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2256 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [1949 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2236 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [1998 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [1979 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [1953 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2421 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [1945 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2062 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [2022 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element header","line":26,"charStart":677,"charEnd":696}}]
+[{"method":"warning","params":{"file":"web/garden/plant/garden_plant_web.html","message":"Trailing solidus not allowed on element section","line":27,"charStart":712,"charEnd":736}}]
+build.dart finished [1950 ms]
+
+---
+build.dart --machine --changed=web\garden\plant\garden_plant_web.html
+
+build.dart finished [2303 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+
+build.dart finished [2037 ms]
+
+---
+build.dart --machine --changed=web\garden\plant\img\Garden model.png
+
+build.dart finished [2051 ms]
+
+---
+build.dart --machine --changed=web\garden\plant\img\garden plant.png --removed=web\garden\plant\img\Garden mode...
+
+build.dart finished [1933 ms]
+
+---
+build.dart --machine --changed=web\garden\plant\img\garden_plant.png --removed=web\garden\plant\img\garden plan...
+
+build.dart finished [1923 ms]
+
+---
+build.dart --machine --changed=doc\analysis\garden_plant.png
+
+build.dart finished [1993 ms]
+
+---
+build.dart --machine --removed=doc\analysis\Garden model.png
+
+build.dart finished [1986 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\dev\git\dart\project\packages\polymer\builder.dart'file:///C:/Users/dev/git/dart/project/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [390 ms]
+
+---
+build.dart --machine --removed=pubspec.lock
+Unable to open file: C:\Users\dev\git\dart\project\packages\polymer\builder.dart'file:///C:/Users/dev/git/dart/project/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [392 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\dev\git\dart\project\packages\polymer\builder.dart'file:///C:/Users/dev/git/dart/project/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [398 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [5317 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [3281 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2151 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2114 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2213 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2135 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2512 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [4546 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2194 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2180 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2146 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2022 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [114598 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart --changed=web\garden_list.html --changed=web\project.html
+
+build.dart finished [2270 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2171 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2118 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [8506 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2197 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [6514 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2149 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2134 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2617 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2086 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2212 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2259 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2157 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2154 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2205 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2951 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2830 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [3411 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart --changed=web\garden_list.html
+
+build.dart finished [2149 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [3487 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2128 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [2088 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2264 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2198 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [6992 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2584 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart --changed=web\garden_list.html
+
+build.dart finished [2147 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2137 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2318 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart --changed=web\garden_list.html
+
+build.dart finished [2216 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2193 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [5727 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2243 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2246 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2058 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2165 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2114 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2138 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2554 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2111 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2344 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2122 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2111 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+[{"method":"error","params":{"file":"web/project.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":46,"charStart":859,"charEnd":915}}]
+build failed with errors: {Transform polymer (Linter) on garden_plant|web/project.html threw error: couldn't find imported asset "lib/polymer.html" in package "polymer".}
+build.dart finished [2070 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [2169 ms]
+
+---
+build.dart --machine --changed=web\project.dart
+
+build.dart finished [2145 ms]
+
+---
+build.dart --machine --changed=web\project.dart
+
+build.dart finished [2146 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2126 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2092 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2114 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2173 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2506 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2215 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2188 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2177 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2186 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2127 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2178 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2107 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2274 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2303 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2135 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2193 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart --changed=web\garden_list.html
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":19,"charStart":338,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":28,"charStart":657,"charEnd":668}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template). Ignored.","line":28,"charStart":657,"charEnd":668}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":19,"charStart":338,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":28,"charStart":657,"charEnd":668}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template). Ignored.","line":28,"charStart":657,"charEnd":668}}]
+build.dart finished [2214 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Got table cell end tag (td) while required end tags are missing.","line":19,"charStart":390,"charEnd":395}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":20,"charStart":405,"charEnd":409}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":20,"charStart":435,"charEnd":440}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":21,"charStart":451,"charEnd":455}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":21,"charStart":481,"charEnd":486}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":22,"charStart":497,"charEnd":501}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (a) in table context caused voodoo mode.","line":22,"charStart":501,"charEnd":512}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (a) in table context caused voodoo mode.","line":22,"charStart":516,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":22,"charStart":520,"charEnd":525}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":23,"charStart":536,"charEnd":540}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (a) in table context caused voodoo mode.","line":23,"charStart":540,"charEnd":551}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (a) in table context caused voodoo mode.","line":23,"charStart":555,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":23,"charStart":559,"charEnd":564}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":24,"charStart":575,"charEnd":579}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":24,"charStart":591,"charEnd":596}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":26,"charStart":606,"charEnd":617}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template). Ignored.","line":26,"charStart":606,"charEnd":617}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (ul) in table context caused voodoo mode.","line":27,"charStart":622,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"End tag (ul) seen too early. Expected other end tag.","line":27,"charStart":622,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (table) implies end tag (table).","line":28,"charStart":632,"charEnd":639}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (table) implies end tag (table).","line":28,"charStart":632,"charEnd":639}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (table) implies end tag (table).","line":28,"charStart":632,"charEnd":639}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (td). Ignored.","line":43,"charStart":956,"charEnd":961}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (tr). Ignored.","line":43,"charStart":961,"charEnd":966}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (table). Ignored.","line":44,"charStart":969,"charEnd":977}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Got table cell end tag (td) while required end tags are missing.","line":19,"charStart":390,"charEnd":395}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":20,"charStart":405,"charEnd":409}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":20,"charStart":435,"charEnd":440}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":21,"charStart":451,"charEnd":455}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":21,"charStart":481,"charEnd":486}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":22,"charStart":497,"charEnd":501}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (a) in table context caused voodoo mode.","line":22,"charStart":501,"charEnd":512}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (a) in table context caused voodoo mode.","line":22,"charStart":516,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":22,"charStart":520,"charEnd":525}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":23,"charStart":536,"charEnd":540}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (a) in table context caused voodoo mode.","line":23,"charStart":540,"charEnd":551}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (a) in table context caused voodoo mode.","line":23,"charStart":555,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":23,"charStart":559,"charEnd":564}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (li) in table context caused voodoo mode.","line":24,"charStart":575,"charEnd":579}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li) in table context caused voodoo mode.","line":24,"charStart":591,"charEnd":596}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":26,"charStart":606,"charEnd":617}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (template). Ignored.","line":26,"charStart":606,"charEnd":617}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (ul) in table context caused voodoo mode.","line":27,"charStart":622,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"End tag (ul) seen too early. Expected other end tag.","line":27,"charStart":622,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (table) implies end tag (table).","line":28,"charStart":632,"charEnd":639}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (table) implies end tag (table).","line":28,"charStart":632,"charEnd":639}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (table) implies end tag (table).","line":28,"charStart":632,"charEnd":639}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (td). Ignored.","line":43,"charStart":956,"charEnd":961}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (tr). Ignored.","line":43,"charStart":961,"charEnd":966}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (table). Ignored.","line":44,"charStart":969,"charEnd":977}}]
+build.dart finished [2263 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (td). Ignored.","line":19,"charStart":385,"charEnd":390}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (td). Ignored.","line":19,"charStart":385,"charEnd":390}}]
+build.dart finished [2095 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2052 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2210 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2699 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2139 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2173 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2169 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2181 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2312 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2260 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li). Ignored.","line":29,"charStart":781,"charEnd":786}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"End tag (ul) seen too early. Expected other end tag.","line":36,"charStart":948,"charEnd":953}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li). Ignored.","line":29,"charStart":781,"charEnd":786}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"End tag (ul) seen too early. Expected other end tag.","line":36,"charStart":948,"charEnd":953}}]
+build.dart finished [2191 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li). Ignored.","line":29,"charStart":781,"charEnd":786}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"End tag (ul) seen too early. Expected other end tag.","line":36,"charStart":948,"charEnd":953}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (li). Ignored.","line":29,"charStart":781,"charEnd":786}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"End tag (ul) seen too early. Expected other end tag.","line":36,"charStart":948,"charEnd":953}}]
+build.dart finished [2135 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2164 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (a) in table context caused voodoo mode.","line":15,"charStart":236,"charEnd":264}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (a) in table context caused voodoo mode.","line":15,"charStart":278,"charEnd":282}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected start tag (a) in table context caused voodoo mode.","line":15,"charStart":236,"charEnd":264}}]
+[{"method":"warning","params":{"file":"web/garden_list.html","message":"Unexpected end tag (a) in table context caused voodoo mode.","line":15,"charStart":278,"charEnd":282}}]
+build.dart finished [2101 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2106 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2141 ms]
+

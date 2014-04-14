@@ -1,3 +1,11 @@
+part of garden_plant;
+
+// http://www.json.org/
+// http://jsonformatter.curiousconcept.com/
+
+// lib/garden/plant/json/model.dart
+
+var gardenPlantModelJson = r'''
 {
     "width":990,
     "height":580,
@@ -154,3 +162,5 @@
         }
     ]
 }
+''';
+  

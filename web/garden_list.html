@@ -1,22 +1,35 @@
-<polymer-element name="garden-list" noscript>
+<polymer-element name="garden-list">
 
   <link rel="stylesheet" href="project.css"> 
-  
+
+
   <template> 
   <table class="component_border">
   <thead class="component_header">
   <tr><th>
-    <h2>Gardens</h2>
+    <h2>{{title}}</h2>
     </th>
   </tr></thead>
-    <tr><td> 
-  
-    <p id="text">garden-list</p>
-    <!-- <script type="application/dart" src="garden_list.dart"></script>
-    <script src="packages/browser/dart.js"></script>-->
-  
-  </td></tr>
-  </table>
+
+<tr><td>
+    <a href= "garden_edit.html">Add new garden</a>
+ </td></tr>   
+
+      <tbody>
+        
+        <tr template repeat = "{{garden in displayedGardens}}">
+          <td>{{name}}</td>
+          <td>{{description}}</td>
+          <td>{{geoposition}}</td>
+          <td><a href="">View</a></td>
+          <td><a href="">Edit</a></td>
+          <td>{{selected}}</td>
+        </tr>
+
+      </tbody>
+    </table>
+ 
+
   </template>
-  
+      <script type="application/dart" src="garden_list.dart"></script>
 </polymer-element>

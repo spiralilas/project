@@ -1,8 +1,17 @@
-name: project
-description: A sample Polymer application
+name: garden_plant
+version: 0.0.1
+author: Your Name
+description: garden_plant application that uses dartling for its model.
+homepage: http://ondart.me/
 dependencies:
+  angular: '>=0.9.2'
+  angular_node_bind: any
   browser: any
+  dartling:
+    path: C:\Users\dev\git\dart\dartling
+  dartling_default_app:
+    path: C:\Users\dev\git\dart\dartling_default_app
   polymer: any
 transformers:
-- polymer:
-    entry_points: web/project.html
+  - polymer:
+      entry_points: web/angularpolymer.html

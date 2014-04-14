@@ -3,11 +3,11 @@
 
 Minimum pour le cours (tout en local)
 
-data model (3 entités, 2 relations...keep it simple !)
-data entry (composants polymer)
-data validation
+DONE ! data model (3 entités, 2 relations...keep it simple !)
+PART DONE ! data entry (composants polymer)
 internal storage indexedDB
 data display, add, remove, edit
+data validation
 
 Un petit peu plus de fonctionnalité
 
@@ -43,9 +43,6 @@ Map
     <link rel="import" href="garden_list.html">
     <link rel="import" href="garden_edit.html">
     <link rel="import" href="garden_visit.html">
-    
-    <script type="application/dart">export 'package:polymer/init.dart';</script>
-    <script src="packages/browser/dart.js"></script>
   
   </head>
   
@@ -53,8 +50,10 @@ Map
     <h1>Garden app</h1>
     
       <garden-list></garden-list>
-      <garden-edit></garden-edit>
+      <!--<garden-edit></garden-edit>-->
       <garden-visit></garden-visit>
 
+    <script type="application/dart" src="project.dart"></script>
+    <script src="packages/browser/dart.js"></script>
   </body>
 </html>
