@@ -19,6 +19,7 @@ class GardenEdit extends PolymerElement {
 
   }
 
+  /** à connecter plus tard **/
 
 /**  void increment() {
     count++;

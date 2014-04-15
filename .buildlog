@@ -1864,3 +1864,117 @@ build.dart --machine --changed=web\garden_list.html
 
 build.dart finished [2141 ms]
 
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2083 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2084 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2143 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [3257 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2121 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2137 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2419 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2161 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2110 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2231 ms]
+
+---
+build.dart --machine --changed=web\project.html
+
+build.dart finished [2341 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2059 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2553 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2207 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+
+build.dart finished [2282 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2108 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2180 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+
+build.dart finished [2153 ms]
+
+---
+build.dart --machine --changed=web\garden_list.html
+error running barback: Transform polymer (Linter) on garden_plant|web/garden_list.html threw error: FormatException: Bad UTF-8 encoding 0x6d
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2143 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/garden_list.html threw error: FormatException: Bad UTF-8 encoding 0x6d
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2015 ms]
+
+---
+build.dart --machine --changed=web\garden_edit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/garden_list.html threw error: FormatException: Bad UTF-8 encoding 0x6d
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2204 ms]
+
+---
+build.dart --machine --changed=web\garden_list.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/garden_list.html threw error: FormatException: Bad UTF-8 encoding 0x6d
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2122 ms]
+

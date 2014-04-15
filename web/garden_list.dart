@@ -6,17 +6,48 @@ import 'package:polymer/polymer.dart';
  * A Polymer garden-list element.
  */
 
+
+class DisplayedGarden {
+  String code;
+  String name;
+  String description;
+  List<DisplayedPlant> displayedPlants;
+  String  geoposition; //will need to change type
+
+  DisplayedGarden(this.name, this.description, this.displayedPlants, this.geoposition);
+} 
+
+class DisplayedPlant {
+  String code;
+  String name;
+  String description;
+
+  DisplayedPlant(this.code, this.name, this.description);
+} 
+
+/**Starting to  try with angular (with polymer binding) instead
+ 
+@NgController(
+    selector: '[ctrlgarden-list]',
+    publishAs: 'ctrl')
+class GardenListController {
+
+  List<DisplayedGarden> displayedGardens;
+  GardenListController() {
+    displayedGardens = observableGardens(var gardenEntries);
+  }
+ 
+  **/
+
 @CustomTag('garden-list')
 class GardenList extends PolymerElement {
   @observable String title = "Garden-list";
-  @observable String name;
-  @observable String description;
-  @observable String geoposition;
+  //@observable String name;
+  //@observable String description;
+  //@observable String geoposition;
   @observable bool selected; 
+  //@observable List displayedGardens;
 
-  
-    //List gardens = [new Garden('Bob', 'Smith'), new Person('Alice', 'Johnson')];
-      
   GardenList.created() : super.created();
   
   
@@ -35,10 +66,26 @@ class GardenList extends PolymerElement {
      initGardenPlants(gardenEntries);
      gardenEntries.display();
      gardenEntries.displayJson();
-     List displayedGardens = toObservable(gardenEntries.gardens);
-
+     
+     var gardens = gardenEntries.gardens;
+     List displayedGardens = toObservable(gardens); //NOT WORKING
+     
+     //List displayedGardens = observableGardens(gardenEntries);//not working either. Pourquoi il s'en va déjà dans polymer, avant que ce soit observable ?
+     //displayedGardens = toObservable(displayedGardens);
         }
-   
+  
+
+  List <DisplayedGarden> observableGardens(var gardenEntries) {
+    List <DisplayedGarden> someGardens;
+    var gardens = gardenEntries.gardens;
+    for (var garden in gardens){
+      DisplayedGarden aGarden = new DisplayedGarden (garden.code, garden.name, garden.description, garden.geolocation);
+      someGardens.add(aGarden);
+    }
+    return someGardens;
+  }
+
+  
     void initGarden(var entries){
     var gardens = entries.gardens;
     var garden = new Garden(gardens.concept);
