@@ -1,0 +1,41 @@
+<polymer-element name="plant-edit">
+  <link rel="stylesheet" href="../../css/project.css"> 
+  
+  <template>
+  <table class="component_border">
+  <thead class="component_header">
+  <tr><th>
+    <h2>Edit plant</h2>
+    </th>
+  </tr></thead>
+  
+  <tr><td>
+      <table> <!-- il ne faut pas utiliser <form>, sinon ça ne fonctionne pas-->
+        <tr>
+          <td><label>Latin Name:</label></td>
+          <td><label>{{plantCategory.latinName}}</label></td></tr>
+        <tr>
+          <td><label for="{{plantCategory.latinName}}-description">Description:</label></td>
+          <td><input id="{{plantCategory.latinName}}-description" type="text" size="96" value="{{description}}"/></td>
+        </tr>
+        <tr>
+          <td><label>Edible ?</label></td>
+          <td><input id="{{plantCategory.latinName}}-isEdible" type="text" size="96" value="{{isEdible}}"/></td>
+        </tr>
+        <tr>
+          <td><label>Harvest Zone:</label></td>
+          <td><input id="{{plantCategory.latinName}}-harvestZone" type="text" size="96" value="{{harvestZone}}"/></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button on-click="{{update}}">Update</button></td>
+        </tr>
+      </table>
+    </td></tr>
+    <tr><td id="message">{{message}}</td></tr>
+  </table>
+  </template>
+
+  <script type="application/dart" src="plant_edit.dart"></script>
+
+</polymer-element>

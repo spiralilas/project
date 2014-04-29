@@ -1,0 +1,32 @@
+<polymer-element name="plant-add">
+<link rel="stylesheet" href="../../css/project.css"> 
+
+  <template>
+    <table>
+      <tr>
+        <td><label for="latinName">Latin Name</label></td>
+        <td><input id="latinName" type="text" maxlenght="32"/></td>
+      </tr>
+      <tr>
+        <td><label for="description">Description</label></td>
+        <td><textarea id="description" maxlenght="96"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="isEdible">Edible ?</label></td>
+        <td><input id="isEdible" name="isEdible" type="radio" value="true">Yes
+        <input id="isEdible" name="isEdible" type="radio" value="false">No</td>
+      </tr>
+      <tr>
+        <td><label for="harvestZone">Harvest zone</label></td>
+        <td><input id="harvestZone" type="text" size="8"/></td>
+      </tr>
+      <tr>
+        <td><button on-click="{{add}}">Add</button></td>
+      </tr>
+      <tr>
+        <td colspan="2"><span id="message"></span></td>
+      </tr>
+    </table>
+  </template>
+  <script type="application/dart" src="plant_add.dart"></script>
+</polymer-element>

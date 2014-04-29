@@ -1,0 +1,44 @@
+<polymer-element name="plant-list">
+
+  <link rel="stylesheet" href="../../css/project.css">  
+  <link rel="import" href="plant_add.html"/>
+  <link rel="import" href="plant_edit.html"/>
+
+  <template> 
+  <table class="component_border">
+  <thead class="component_header">
+  <tr><th colspan="6">
+    <h2>Plants Selection</h2>
+    </th>
+  </tr>
+  </thead>
+
+        <tr template repeat = "{{plantCategory in plantCategories.internalList}}">
+          <td>{{plantCategory.latinName}}</td>
+          <td>{{plantCategory.description}}</td>
+          <td>{{plantCategory.isEdible}}</td>
+          <td>{{plantCategory.harvestZone}}</td>
+          <td><a href="">View</a></td>
+          <td><a href="">Edit</a></td>
+          <td>{{selected}}</td>
+        </tr>
+
+<tr><td colspan="6">
+<button id="show-add" on-click="{{show}}">Show Add</button>
+
+    <template if="{{showAdd}}">
+      <plant-add id="plant-add" plantCategories="{{plantCategories}}"></plant-add>
+    </template>
+    
+    <template if="{{showEdit}}">
+      <plant-edit id="plant-edit"  plantCategories="{{plantCategories}}" plantCategory="{{plantCategory}}"></plant-edit>
+    </template>
+    
+</td></tr>
+    </table>
+
+    
+
+  </template>
+      <script type="application/dart" src="plant_list.dart"></script>
+</polymer-element>

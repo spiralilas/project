@@ -1,0 +1,46 @@
+<polymer-element name="garden-list">
+
+  <link rel="stylesheet" href="../../css/project.css"> 
+  <link rel="import" href="garden_add.html"/>
+  <link rel="import" href="garden_edit.html"/>
+  
+  <template> 
+  <table class="component_border">
+  <thead class="component_header">
+  <tr><th colspan="6">
+    <h2>My Gardens</h2>
+    </th>
+  </tr></thead>
+
+        <tr template repeat = "{{garden in gardens.internalList}}">
+          <td>{{garden.name}}</td>
+          <td>{{garden.description}}</td>
+          <td>{{garden.geoposition}}</td>
+          <td><a href="">View</a></td>
+          <td><button on-click="{{edit}}" garden-name={{garden.name}}>Edit</button></td>
+          <td><button on-click="{{delete}}" garden-name={{garden.name}}>Remove</button></td>
+        </tr>
+        
+        <tr><td colspan="6">
+         <button id="show-add" on-click="{{show}}">Show Add</button>
+
+     <template if="{{showAdd}}">
+      <garden-add id="garden-add" gardens="{{gardens}}"></garden-add>
+    </template>
+    
+    <template if="{{showEdit}}">
+      <garden-edit id="garden-edit"  gardens="{{gardens}}" garden="{{garden}}"></garden-edit>
+    </template>
+    
+    </td></tr>
+        
+    </table>
+
+    
+    
+  </template>
+  
+  <script type="application/dart" src="garden_list.dart"></script>
+</polymer-element> 
+
+<!--on-saveChange="{{saveChange}}"-->

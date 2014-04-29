@@ -1,0 +1,23 @@
+<polymer-element name="polymer-app">
+  <link rel="import" href="garden/garden_list.html">
+  <link rel="import" href="garden/garden_visit.html">
+  <link rel="import" href="plant/plant_list.html">
+  <link rel="stylesheet" href="../css/project.css"> 
+  
+  <template>
+  
+    <button on-click="{{saveFromClick}}">Save</button>
+    <br/>
+  
+    <garden-list  id="garden-list" gardens="{{gardens}}"></garden-list>
+    <garden-visit id="garden-visit" gardens="{{gardens}}"></garden-visit>
+    <plant-list id="plant-list" plantCategories="{{plantCategories}}"></plant-list>
+  
+    <button on-click="{{saveFromClick}}">Save</button>
+
+  </template>
+  
+  <script type="application/dart" src="polymer_app.dart"></script>
+</polymer-element>
+
+ <!--on-saveFromComponent="saveFromComponent"-->

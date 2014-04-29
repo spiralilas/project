@@ -1,0 +1,46 @@
+<polymer-element name="garden-add">
+<link rel="stylesheet" href="../../css/project.css"> 
+
+  <template>
+  <table>
+  <tr>
+    <td>
+      <label for="name">Name</label>
+    </td>
+    <td>
+      <input id="name" type="text" size="32"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="description">Description</label>
+    </td>
+    <td>
+      <input id="description" type="text" size="96"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="geoposition">Geoposition</label>
+    </td>
+    <td>
+      <input id="geoposition" type="text" size="8"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button on-click="{{add}}">Add</button>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <span id="message"></span>
+    </td>
+  </tr>
+  </table>  
+  </template>
+  <script type="application/dart" src="garden_add.dart"></script>
+</polymer-element>
+
+
+

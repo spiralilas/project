@@ -3,23 +3,22 @@
 
 Minimum pour le cours (tout en local)
 
-DONE ! data model (3 entitÃ©s, 2 relations...keep it simple !)
-PART DONE ! data entry (composants polymer)
-internal storage indexedDB
+DONE ! data model (3 entités, 2 relations...keep it simple !)
+data entry (composants polymer)
 data display, add, remove, edit
+internal storage indexedDB
 data validation
-
-Un petit peu plus de fonctionnalitÃ©
-
-filters (angular + polymer/angular binding)
-photocamera
-geolocation
 
 D'autres trucs que je veux apprendre (sauvegarde sur le serveur)
 
 client-serveur
 mongoDB
 
+Un petit peu plus de fonctionnalité
+
+filters (angular + polymer/angular binding)
+photocamera
+geolocation
 offline functionnality
 internationnalisation
   
@@ -33,27 +32,19 @@ Map
   -->
 <html>
   <head>
-    <meta charset="utf-8">
 
     <title>Garden app</title>
-    <link rel="stylesheet" href="project.css">
-    
-    <!-- importing polymer  elements-->
-    
-    <link rel="import" href="garden_list.html">
-    <link rel="import" href="garden_edit.html">
-    <link rel="import" href="garden_visit.html">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="import" href="component/polymer_app.html">
+    <script type="application/dart"> 
+        export "package:polymer/init.dart";
+        </script>
+    <script src="packages/browser/dart.js"></script>
   
   </head>
   
   <body>
-    <h1>Garden app</h1>
-    
-      <garden-list></garden-list>
-      <garden-edit></garden-edit>
-      <garden-visit></garden-visit>
-
-    <script type="application/dart" src="project.dart"></script>
-    <script src="packages/browser/dart.js"></script>
+        <h1>Project</h1>
+        <polymer-app id="polymer-app"></polymer-app>
   </body>
 </html>
