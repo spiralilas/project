@@ -3,11 +3,12 @@
   <link rel="stylesheet" href="../../css/project.css"> 
   <link rel="import" href="garden_add.html"/>
   <link rel="import" href="garden_edit.html"/>
+  <link rel="import" href="../specimen/garden_visit.html"/>
   
   <template> 
   <table class="component_border">
   <thead class="component_header">
-  <tr><th colspan="6">
+  <tr><th colspan="7">
     <h2>My Gardens</h2>
     </th>
   </tr></thead>
@@ -19,12 +20,15 @@
           <td><a href="">View</a></td>
           <td><button on-click="{{edit}}" garden-name={{garden.name}}>Edit</button></td>
           <td><button on-click="{{delete}}" garden-name={{garden.name}}>Remove</button></td>
+          <td><button on-click="{{showPlants}}" garden-name="{{garden.name}}">Show</button>
         </tr>
         
-        <tr><td colspan="6">
+        <tr><td colspan="7">
          <button id="show-add" on-click="{{show}}">Show Add</button>
-
-     <template if="{{showAdd}}">
+        </td></tr>
+    </table>
+    
+    <template if="{{showAdd}}">
       <garden-add id="garden-add" gardens="{{gardens}}"></garden-add>
     </template>
     
@@ -32,11 +36,9 @@
       <garden-edit id="garden-edit"  gardens="{{gardens}}" garden="{{garden}}"></garden-edit>
     </template>
     
-    </td></tr>
-        
-    </table>
-
-    
+    <template if="{{showGardenPlants}}">
+      <garden-visit id="plant-table" garden="{{garden}}"></garden-visit>
+    </template>  
     
   </template>
   

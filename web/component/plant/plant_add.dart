@@ -17,7 +17,7 @@ class PlantAdd extends PolymerElement {
     InputElement isEdible = shadowRoot.querySelector("#isEdible");
     InputElement harvestZone = shadowRoot.querySelector("#harvestZone");
     Element message = shadowRoot.querySelector("#message");
-    
+
     //pour les messages d'erreur
     var error = false;
     message.text = '';

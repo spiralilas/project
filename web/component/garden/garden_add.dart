@@ -14,7 +14,8 @@ class GardenAdd extends PolymerElement {
     //il faut attacher les champs en Input (pourquoi? je croyais que polymer le faisait?)
     InputElement name = shadowRoot.querySelector("#name");
     InputElement description = shadowRoot.querySelector("#description");
-    InputElement geoposition = shadowRoot.querySelector("#geoposition");
+    InputElement geoposition = shadowRoot.querySelector("#geoposition");//il faudra remplacer ça par un bouton pour geoposition
+    
     Element message = shadowRoot.querySelector("#message");
     
     //pour les messages d'erreur
@@ -55,5 +56,6 @@ class GardenAdd extends PolymerElement {
         message.text = "Please choose another name for your garden";
       }
     }
+    //quand on clique sur le bouton de geoposition: window.navigator.geolocation.getCurrentPosition()
   }
 }

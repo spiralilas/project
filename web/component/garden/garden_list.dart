@@ -14,8 +14,9 @@ class GardenList extends PolymerElement {
   Garden garden;
   @observable bool showAdd = false;
   @observable bool showEdit = false;
-
+  @observable bool showGardenPlants = false;
   //@observable bool selected; 
+  
 
 
   GardenList.created() : super.created();
@@ -51,4 +52,16 @@ class GardenList extends PolymerElement {
     dispatchEvent(new CustomEvent('saveFromComponent'));
   }
 
+  showPlants(Event e, var detail, Element target) {
+    String gardenName = target.attributes['garden-name'];
+    ButtonElement gardenPlants = target;
+    if (!showGardenPlants && gardenPlants.text == 'Show') {
+      showGardenPlants = true;
+      garden = gardens.singleWhereAttributeId('name', gardenName);
+      gardenPlants.text = 'Hide';
+    } else if (showGardenPlants && gardenPlants.text == 'Hide') {
+      showGardenPlants = false;
+      gardenPlants.text = 'Show';
+    }
+  } 
 }

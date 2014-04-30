@@ -1,0 +1,50 @@
+ 
+  <template>
+  <table class="component_border"><tr><td>  
+  <thead class="component_header">
+  <tr><th>
+    <h2>A visit of Garden 1</h2>
+    </th>
+  </tr></thead>
+    <tr><td>
+  
+    <p id="text">garden-visit</p>
+    <!--<script type="application/dart" src="garden_visit.dart"></script>
+    <script src="packages/browser/dart.js"></script>-->
+  
+  </td></tr></table>
+  </template>
+</polymer-element>
+
+<polymer-element name="garden-visit">
+  <link rel="import" href="specimen_add.html"/>
+  <link rel="import" href="specimen_edit.html"/>
+  <link rel="stylesheet" href="../../css/project.css"> 
+  <template>
+    <table class="component_border">
+      <thead class="component_header">
+        <tr><th colspan="6"><h2>A visit of Garden 1</h2></th></tr>
+      </thead>
+      <tbody> 
+        <tr><td><button id="show-add" on-click="{{show}}">Show Add</button></td></tr>
+        <tr template repeat="{{plant in plants.internalList}}">
+          <td>{{plant.name}}</td>
+          <td>{{plant.description}}</td>
+          <td>plant.picture placeholder</td>
+          <td>{{plant.plantCategory}}</td>
+          <td><button on-click="{{edit}}" plant-name="{{plant.name}}">Edit</button></td>
+          <td><button on-click="{{delete}}" plant-name="{{plant.name}}">Remove</button></td>
+        </tr>
+        <tr><td colspan="6"><template if="{{showAdd}}">
+                               <specimen-add garden="{{garden}}" plantCategories="{{plantCategories}}"></specimen-add>
+                            </template>
+        </td></tr>
+        <tr><td colspan="6"><template if="{{showEdit}}">
+                  <specimen-edit garden="{{garden}}" plant="{{plant}}" plantCategories="{{plantCategories}}"></specimen-edit>
+                </template>
+        </td></tr>
+    </table>
+  </template>
+  <script type="application/dart" src="garden_visit.dart"></script>
+</polymer-element>
+

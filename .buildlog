@@ -3962,3 +3962,327 @@ error running barback: Transform polymer (Linter) on garden_plant|web/component/
 dart:isolate  _RawReceivePortImpl._handleMessage
 build.dart finished [2378 ms]
 
+---
+build.dart --machine --changed=web\component\garden\garden_add.html --changed=web\component\garden\garden_edit....
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2827 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2855 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_list.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2150 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_list.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1992 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1991 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1964 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1997 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1985 ms]
+
+---
+build.dart --machine --removed=web\component\specimen\specimen_list.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2020 ms]
+
+---
+build.dart --machine --removed=web\component\specimen\specimen_list.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2056 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\garden_visit.dart --changed=web\component\specimen\garden...
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1992 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\garden_visit.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2700 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\garden_visit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2218 ms]
+
+---
+build.dart --machine --changed=web\component\garden\garden_list.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1965 ms]
+
+---
+build.dart --machine --changed=web\component\garden\garden_list.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1984 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2161 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2392 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2030 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\garden_visit.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2007 ms]
+
+---
+build.dart --machine --changed=web\component\polymer_app.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2594 ms]
+
+---
+build.dart --machine --changed=web\component\polymer_app.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1927 ms]
+
+---
+build.dart --machine --changed=web\component\garden\garden_list.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2089 ms]
+
+---
+build.dart --machine --changed=web\component\polymer_app.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2077 ms]
+
+---
+build.dart --machine --changed=web\component\polymer_app.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1970 ms]
+
+---
+build.dart --machine --changed=web\component\garden\garden_edit.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2032 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1976 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2118 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\garden_visit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2042 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2106 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2031 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2476 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2066 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2965 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2063 ms]
+
+---
+build.dart --machine --changed=web\component\plant\plant_edit.dart --changed=web\component\specimen\garden_visi...
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2041 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\garden_visit.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2563 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2069 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2129 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2023 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2125 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2093 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\garden_visit.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2139 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2113 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart --changed=web\component\specimen\specim...
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2079 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2221 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2035 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2041 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_edit.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2130 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2063 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [1992 ms]
+
+---
+build.dart --machine --changed=web\component\garden\garden_list.html
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2308 ms]
+
+---
+build.dart --machine --changed=web\component\plant\plant_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/plant/plant_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2145 ms]
+
+---
+build.dart --machine --changed=web\component\garden\garden_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2115 ms]
+
+---
+build.dart --machine --changed=web\component\specimen\specimen_add.dart
+error running barback: Transform polymer (Linter) on garden_plant|web/component/garden/garden_edit.html threw error: FormatException: Bad UTF-8 encoding 0x61
+dart:isolate  _RawReceivePortImpl._handleMessage
+build.dart finished [2630 ms]
+

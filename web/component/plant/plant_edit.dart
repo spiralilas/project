@@ -28,7 +28,7 @@ class PlantEdit extends PolymerElement {
        //pour afficher les données
        description = plantCategory.description;
        isEdible = plantCategory.isEdible;
-       harvestZone = plantCategory.harvestZone;       
+       harvestZone = plantCategory.harvestZone;
      }
 
     update (Event e, var detail, Node sender) {

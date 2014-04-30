@@ -1,0 +1,36 @@
+<polymer-element name="specimen-edit">
+  <template>
+   <table>
+    <thead class="component_header"><tr>
+       <th colspan="2"><h2>Edit plan specimen</h2></th>
+    </tr></thead>
+    
+    <tr>
+      <td><label for="name">Name</label></td>
+      <td><input id="name" type="text" size="32" value="{{name}}"/></td>
+    </tr>
+    <tr>
+      <td><label for="description">Description</label></td>
+      <td><input id="description" type="text" size="96" value="{{description}}"/></td>
+    </tr>
+    <tr>
+       <td><label for="picture">Picture</label></td>
+      <td><input id="picture" type="text" size="64" value="{{picture}}"/></td>
+    </tr>
+         <tr>
+          <td><label for='plantCategory'>Plant</label></td>
+          <td><select id="latinName">
+                 <option value="{{plantCategory.latinName}}" template repeat="{{plantCategory in plantCategories.internalList}}">{{plantCategory.latinName}}</option>
+              </select></td>
+     </tr>
+    <tr>
+      <td colspan="2"><button on-click="{{update}}">Update</button></td>
+    </tr>
+    <tr>
+      <td colspan="2"><span id="message"></span></td>
+    </tr>
+    
+   </table>
+  </template>
+  <script type="application/dart" src="specimen_edit.dart"></script>
+</polymer-element>
